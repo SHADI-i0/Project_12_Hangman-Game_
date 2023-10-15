@@ -94,6 +94,7 @@ function endGame() {
 }
 
 function winner() {
+    LettersContainer.classList.add("finished");
     let div = document.createElement("div");
     div.className = "winner";
     let p = document.createElement("p");
